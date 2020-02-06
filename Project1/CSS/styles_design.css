@@ -1,3 +1,14 @@
-.img_food{
-    background-image: url("..\Images\Food_healthy_f.jpg")
-};
+.position {
+    position: sticky !important; 
+    top: 0;
+    padding: 1px;
+}
+
+img{
+    max-width: 500px;
+    max-height: 250px;
+}
+menu li{
+    list-style-image: url(../Images/1883939.png);
+}
+
