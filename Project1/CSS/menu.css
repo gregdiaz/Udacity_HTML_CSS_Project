@@ -1,0 +1,48 @@
+.menu{
+    grid-area: menu;
+    border: black solid 2px;
+    background-color: #01adb9;
+    box-shadow: 2px 1px black;
+    width: 200px;
+    height: auto;
+    font-size: 1.2em;
+}
+
+a {
+    color: black;
+    font-style: italic;   
+}
+
+a:hover {
+    color: rgb(71, 38, 216);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#btn{
+    background-color: #01adb9;
+    display: inline-block;
+    padding: 3px 25px 4px;
+    text-transform: capitalize;
+    color: whitesmoke;
+    font-size: 25px;
+    letter-spacing: 3.5px;
+    position: relative;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#email{
+    margin:8px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 96%;
+    height: 28%;
+    cursor: pointer;
+}
+
+
+
