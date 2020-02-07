@@ -22,6 +22,7 @@ body{
     display: flex;
     justify-content: center;
     color:#01adb9;
+    margin: -14px;
 }
 
 .main{
@@ -37,6 +38,18 @@ body{
     border: rgb(0, 0, 0) solid 2px;
     background-color: #fbf5ed;
     display: block;
+}
+
+.author {
+    grid-area: menu;
+    margin: 11%;
+    max-width: 90%;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 200px;
+    position: sticky !important;
+    top: 242px;
+    padding: 1px;
+    height: 80px;
 }
 
 p{
