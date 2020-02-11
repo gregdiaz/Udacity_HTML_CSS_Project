@@ -1,1 +1,132 @@
 @import url('https://fonts.googleapis.com/css?family=Lemonada|Sriracha&display=swap');
+body{
+    font-size: medium;
+    background-color: azure;
+    max-width: 1444px;
+}
+
+.container{
+    margin: 2%;
+    display: grid;
+    max-width: 90%;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 108px;
+    grid-template-areas: 
+    "logo menu" 
+    "hd hd" 
+    "main main" 
+    "ft ft";
+}
+
+.menu{
+    position: sticky !important; 
+    top: 0;
+    padding: 1px;
+    font-family: Lemonada;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+
+.logo{
+    position: sticky !important; 
+    top: 0;
+    padding: 1px;
+}
+
+.logo img {
+    width: 107px;
+    height: 80px;
+}
+
+
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.header
+{
+    grid-area: hd;
+    display: flex;
+    justify-content: center;
+    color:#01adb9;
+    margin: -14px;
+}
+
+.main{
+    
+    grid-area: main;
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-bottom: 15px;
+    grid-gap: 12px;
+}
+
+.imgcontent :hover{
+    background-color: yellow
+}
+
+.footer{
+    grid-area: ft;
+    border: rgb(0, 0, 0) solid 2px;
+    background-color: #fbf5ed;
+    display: block;
+}
+
+p{
+    text-justify:auto;
+    font-size: 1.2em;
+}
+
+span{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #01adb9;
+}
+
+.header_home{
+    grid-area: hd;
+}
+
+.social{
+    display: grid;
+    grid-template-columns: 30px 30px;
+    grid-template-areas: 
+    "fb int in";
+    text-align: left;
+    grid-row-gap: 1px;
+    background-color: #fbf5ed;
+    justify-content: end;    
+}
+
+#facebbok{
+    grid-area: fb;
+    width: 50%
+}
+
+#instagram{
+    grid-area: int;
+}
+
+#linkedin{
+    grid-area: in;
+}
+
+#subscribe{
+    margin-top: 2px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.imgcontent img{
+    width: 323px;
+    height: 183px;
+}
+.menustyle{
+    list-style: none;
+}
