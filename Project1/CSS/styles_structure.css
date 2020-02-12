@@ -34,13 +34,6 @@ body{
     flex-wrap: wrap;
 }
 
-.footer{
-    grid-area: ft;
-    border: rgb(0, 0, 0) solid 2px;
-    background-color: #fbf5ed;
-    display: block;
-}
-
 .author {
     grid-area: menu;
     margin: 11%;
@@ -48,9 +41,10 @@ body{
     grid-template-rows: 1fr auto;
     grid-template-columns: 200px;
     position: sticky !important;
-    top: 242px;
+    top: 276px;
     padding: 1px;
     height: 80px;
+    font-family: Lemonada;
 }
 
 p{
@@ -78,37 +72,6 @@ span{
     grid-area: hd;
 }
 
-.social{
-    display: grid;
-    grid-template-columns: 30px 30px;
-    grid-template-areas: 
-    "fb int in";
-    text-align: left;
-    grid-row-gap: 1px;
-    background-color: #fbf5ed;
-    justify-content: end;    
-}
-
-#facebbok{
-    grid-area: fb;
-    width: 50%
-}
-
-#instagram{
-    grid-area: int;
-}
-
-#linkedin{
-    grid-area: in;
-}
-
-#subscribe{
-    margin-top: 2px;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
 .position {
     position: sticky !important; 
     top: 0;
@@ -121,4 +84,5 @@ img{
 }
 .menustyle{
     list-style: none;
+    font-family: Lemonada;
 }

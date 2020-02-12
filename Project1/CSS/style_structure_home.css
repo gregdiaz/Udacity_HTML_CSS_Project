@@ -16,6 +16,8 @@ body{
     "hd hd" 
     "main main" 
     "ft ft";
+    justify-content: center;
+    align-items: center;
 }
 
 .menu{
@@ -29,7 +31,7 @@ body{
 }
 
 .logo{
-    position: sticky !important; 
+    position: sticky; 
     top: 0;
     padding: 1px;
 }
@@ -38,8 +40,6 @@ body{
     width: 107px;
     height: 80px;
 }
-
-
 
 .menu li {
     list-style: none;
@@ -72,9 +72,6 @@ body{
 
 .footer{
     grid-area: ft;
-    border: rgb(0, 0, 0) solid 2px;
-    background-color: #fbf5ed;
-    display: block;
 }
 
 p{

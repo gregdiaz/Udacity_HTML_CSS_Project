@@ -21,28 +21,6 @@ a:link {
     text-decoration: none;
 }
 
-#btn{
-    background-color: #01adb9;
-    display: inline-block;
-    padding: 3px 25px 4px;
-    text-transform: capitalize;
-    color: whitesmoke;
-    font-size: 25px;
-    letter-spacing: 3.5px;
-    position: relative;
-    border-radius: 10px;
-    margin: 10px;
-}
-
-#email{
-    margin:8px;
-    display: inline-block;
-    border-radius: 5px;
-    border: 1px solid black;
-    width: 96%;
-    height: 28%;
-    cursor: pointer;
-}
 .menustyle{
     list-style: none;
 }
