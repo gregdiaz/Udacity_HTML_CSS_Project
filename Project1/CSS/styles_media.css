@@ -27,6 +27,13 @@
         font-size:1em;
         position: sticky;
         top: 0;
+        background-color: black;
+    }
+
+    .menu a {
+        color: white;
+        font-weight: bold;
+        font-family: Lemonada;
     }
 
     .header{

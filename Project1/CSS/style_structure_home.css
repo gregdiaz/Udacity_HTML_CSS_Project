@@ -30,6 +30,10 @@ body{
     background-color: black;
 }
 
+.menu ul .short-tips {
+    display: none;
+}
+
 .logo{
     position: sticky; 
     top: 0;
@@ -127,3 +131,9 @@ span{
 .menustyle{
     list-style: none;
 }
+
+a
+{
+    text-decoration:none;
+    color: white;
+} 
