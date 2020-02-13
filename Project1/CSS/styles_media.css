@@ -20,21 +20,21 @@
         "au au" 
         "main main" 
         "ft ft";
-}
+    }
 
-.menu{
+    .menu{
         grid-area: menu;
         width: auto !important;
         font-size:1em;
         position: sticky;
         top: 0;
-}
+    }
 
-.header{
+    .header{
         grid-area: hd;
-}
+    }
 
-.author{
+    .author{
         position: relative !important;
         top: 0px;
         font-size: 12px;   
@@ -44,58 +44,58 @@
         margin: 0;
         max-width: none;
         height: 62px;
-}
+    }
 
-.author h4{
+    .author h4{
         margin: 26px;
         margin-right: 4px;
-}
+    }
 
-.main{
+    .main{
         grid-area: main;
-}
+    }
 
-img{
+    img{
         margin: auto;
-  }
+    } 
 
-p{
+    p{
        font-size:1em;
     }
 
-.position {
+    .position {
         grid-area: au;
         padding: 1px;
-}
+    }
 
-.author img{
+    .author img{
         width: 57px;
         margin: 5px;
-}
+    }
 
-.author em{
+    .author em{
         display: none;
-}
+    }
 
 
-.footer{ 
+    .footer{ 
         grid-area: ft;
         max-width: 98%;
         margin-left: 3%;
-}
+    }
 
-.menustyle h2, hr{
+    .menustyle h2, hr{
         display:none;
-}
+    }
 
-.menustyle{
+    .menustyle{
         display: flex;
         flex-direction: row;
-}
+    }
 
-.menustyle a {
+    .menustyle a {
         padding-right: 40px;
-}
+    }
 }
 
 /* Phone */

@@ -43,6 +43,9 @@ a:link {
     height: 28%;
     cursor: pointer;
 }
+.menustyle{
+    list-style: none;
+}
 
 
 
