@@ -1,9 +1,10 @@
 @media (max-width: 768px){
 
     .container{
-        margin: 33px;
         grid-template-rows: auto;
         background-image: none;
+        margin-left: 2px;
+        padding: 10px;
     }
 
     .main{  
@@ -17,11 +18,11 @@
     }
 }
 
-@media(max-width: 376px){
+@media(max-width: 414px){
 
     .container{
         margin:0;
-        max-width: 376px;
+        max-width: 414px;
         grid-template-areas: "menu menu" "logo hd" "main main" "ft ft";
     }    
 
@@ -70,16 +71,22 @@
     .footer{ 
         grid-area: ft;
         max-width: 98%;
-        margin-left: 3%;
+        margin-left: 0;
     }
 
     img {
         margin: 0 auto;
     }
 
+    #email{
+        height: 41% !important;
+        width: 142px !important;
+    }
+
     #btn{
         margin: 3px;
-        font-size: 15px;
+        font-size: 14px !important;
         padding: 0px 15px 1px;
     }
+    
 }
