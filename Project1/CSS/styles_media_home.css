@@ -1,36 +1,53 @@
-@media(max-width: 376px){
-
-    body
-    {
-        background-image: none;
-        background-color: white;
-        font-size: small;
-    }
+@media (max-width: 768px){
 
     .container{
-        margin: 12px;
-        display: grid;
-        max-width: 93%;
-        grid-template-rows: 63px 62px auto 66px;
-        grid-template-columns: auto;
-        grid-template-areas: "menu" "hd" "main" "ft";
+        grid-template-rows: auto;
+        background-image: none;
+        margin-left: 2px;
+        padding: 10px;
     }
 
+    .main{  
+        grid-area: main;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .menu ul .short-tips {
+        display: none;
+    }
+}
+
+@media(max-width: 414px){
+
+    .container{
+        margin:0;
+        max-width: 414px;
+        grid-template-areas: "menu menu" "logo hd" "main main" "ft ft";
+    }    
+
     .menu{
+        grid-area: menu;
         font-family: Lemonada;
-        font-weight: bold;
-                        
+        font-weight: bold;                    
     }
     .menu li {
-        list-style: none;
+        padding: 2px;
+    }
+
+    .menu li:nth-of-type(2){
+        display: none;
+    }
+
+    .menu ul .short-tips {
+        display: inline-block;
     }
 
     .header{
-        grid-area: hd;
         display: flex;
         justify-content: center;
         color: #01adb9;
-        margin: -7px;
+        margin: 0;
         font-family: Sriracha;
      }
 
@@ -43,26 +60,33 @@
     }
 
     .main{
-        grid-area: main;
-        display: inline-block;
+        grid-template-columns: none;
+    }
+
+    .logo{
+        grid-area: logo;
+        position: static;
     }
 
     .footer{ 
         grid-area: ft;
         max-width: 98%;
-        margin-left: 3%;
+        margin-left: 0;
     }
 
     img {
-        display: flex;
-        max-width: 258px;
-        justify-content: center;
+        margin: 0 auto;
+    }
 
+    #email{
+        height: 41% !important;
+        width: 142px !important;
     }
 
     #btn{
         margin: 3px;
-        font-size: 15px;
+        font-size: 14px !important;
         padding: 0px 15px 1px;
     }
+    
 }
