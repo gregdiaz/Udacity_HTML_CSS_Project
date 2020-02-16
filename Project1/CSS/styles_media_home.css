@@ -1,7 +1,7 @@
 @media (max-width: 768px){
 
     .container{
-        grid-template-rows: auto;
+        grid-template-rows: auto !important;
         background-image: none;
         margin-left: 2px;
         padding: 10px;
@@ -10,7 +10,7 @@
     .main{  
         grid-area: main;
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto !important;
     }
 
     .menu ul .short-tips {
@@ -60,7 +60,7 @@
     }
 
     .main{
-        grid-template-columns: none;
+        grid-template-columns: none !important;
     }
 
     .logo{
