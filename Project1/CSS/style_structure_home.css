@@ -71,11 +71,15 @@ body{
 }
 
 .imgcontent :hover{
-    background-color: yellow
+    background-color: #01adb9;
 }
 
 .footer{
     grid-area: ft;
+}
+
+.imagtittle a{
+    color: black;
 }
 
 p{
