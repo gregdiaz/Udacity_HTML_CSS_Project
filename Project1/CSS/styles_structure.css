@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lemonada|Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 body{
     font-size: medium;
     background-image: url("../Images/diamond.png");
@@ -24,6 +25,7 @@ body{
     justify-content: center;
     color:#01adb9;
     margin: -14px;
+    font-family: 'Roboto Mono';
 }
 
 .main{
@@ -41,7 +43,7 @@ body{
     grid-template-rows: 1fr auto;
     grid-template-columns: 200px;
     position: sticky !important;
-    top: 276px;
+    top: 255px;
     padding: 1px;
     height: 80px;
     font-family: Lemonada;

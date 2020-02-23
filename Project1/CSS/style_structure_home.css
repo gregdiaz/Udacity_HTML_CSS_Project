@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lemonada|Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
 body{
     font-size: medium;
     background-color: azure;
@@ -58,6 +61,7 @@ body{
     justify-content: center;
     color:#01adb9;
     margin: -14px;
+    font-family: 'Roboto Mono';
 }
 
 .main{
@@ -80,6 +84,7 @@ body{
 
 .imagtittle a{
     color: black;
+    font-family: 'Source Sans Pro';
 }
 
 p{
